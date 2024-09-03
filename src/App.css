@@ -9,7 +9,7 @@
 
 body {
     background-color: #202122;
-    background-image: url('./img/shans-show.jpg');
+    background-image: url('./assets/img/shans-show.jpeg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -93,14 +93,15 @@ body {
     left: 50%;
     transform: translate(-50%, -10%);
     width: 460px;
-    height: 490px;
+    height: 430px;
     .center-profil {
         position: relative;
         .main-img {
             position: absolute;
             width: 290px;
-            height: 345px;
+            height: 300px;
             margin-top: 65px;
+            top: -8px;
             left: 17%;
             border: 10px solid black;
         }
@@ -117,10 +118,12 @@ body {
     left: 50%;
     bottom: 0%;
     transform: translate(-50%, -20%);
-    background-color: white;
+    background-color: rgb(238, 0, 222);
+    color: yellow;
+    border-radius: 30px;
     width: 500px;
     height: 120px;
-    font-size: 7.5rem;
+    font-size: 6rem;
     display: flex;
     justify-content: center;
     align-items: center;
