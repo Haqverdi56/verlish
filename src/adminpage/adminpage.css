@@ -1,0 +1,103 @@
+.admin-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #f5f5dc; /* Beyaz krema rengi */
+	flex-direction: column;
+}
+
+.reset-points {
+	button, a {
+		background-color: #81cad4;
+		font-size: 2rem;
+		width: 600px;
+		border: none;
+		margin-bottom: 1rem;
+		height: 5rem;
+	}
+	button:hover {
+        background-color: #005a99;
+        color: white;
+	}
+}
+.screen-page-button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 300px !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	color: black;
+}
+
+.buttons-container {
+	display: flex;
+	gap: 20%; /* Sol ve sağ kolonlar arasındaki boşluk */
+	background-color: #81cad4; /* Hafif mavi çalar */
+	padding: 20px;
+	border-radius: 8px;
+	width: 600px;
+	align-items: center;
+	justify-content: center;
+}
+
+.left-column,
+.right-column {
+	display: flex;
+	flex-direction: column;
+	gap: 10px; /* Butonlar arasındaki boşluk */
+}
+
+.admin-button {
+	width: 150px;
+	height: 50px;
+	font-size: 16px;
+	border-radius: 4px;
+	border: none;
+	background-color: #007acc;
+	color: white;
+	cursor: pointer !important;
+}
+
+.admin-button:hover {
+	background-color: #005a99;
+}
+
+.main-container {
+	display: flex;
+	background-color: #f5f5dc;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+}
+.buttons-main {
+	background-color: #81cad4;
+	width: 500px;
+	height: 850px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	button,
+	input {
+		font-size: 1.5rem;
+	}
+}
+
+.gender-type {
+    display: flex;
+    gap: 2rem;
+    button {
+        padding: 20px;
+        font-size: 1.5rem;
+        border-radius: 15px;
+        &:hover {
+            background-color: #005a99;
+            color: white;
+            border: 1px solid #f5f5dc;
+        }
+    }
+}
